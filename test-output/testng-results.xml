@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44777" started-at="2018-11-01T09:27:16Z" finished-at="2018-11-01T09:28:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44777" started-at="2018-11-01T09:27:16Z" finished-at="2018-11-01T09:28:01Z">
+      <class name="com.automationpractices.testcases.InvalidUser">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.automationpractices.testcases.InvalidUser@5c7fa833]" name="openBrowser" is-config="true" duration-ms="24426" started-at="2018-11-01T14:57:16Z" finished-at="2018-11-01T14:57:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyLoginPage()[pri:0, instance:com.automationpractices.testcases.InvalidUser@5c7fa833]" name="verifyLoginPage" duration-ms="68" started-at="2018-11-01T14:57:40Z" finished-at="2018-11-01T14:57:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method status="PASS" signature="invalidUser()[pri:0, instance:com.automationpractices.testcases.InvalidUser@5c7fa833]" name="invalidUser" duration-ms="2611" started-at="2018-11-01T14:57:40Z" finished-at="2018-11-01T14:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automationpractices.testcases.InvalidUser@5c7fa833]" name="closeBrowser" is-config="true" duration-ms="431" started-at="2018-11-01T14:57:43Z" finished-at="2018-11-01T14:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.automationpractices.testcases.InvalidUser -->
+      <class name="com.automationpractices.testcases.ValidUser">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.automationpractices.testcases.ValidUser@4c70fda8]" name="openBrowser" is-config="true" duration-ms="13841" started-at="2018-11-01T14:57:43Z" finished-at="2018-11-01T14:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyLoginPage()[pri:0, instance:com.automationpractices.testcases.ValidUser@4c70fda8]" name="verifyLoginPage" duration-ms="57" started-at="2018-11-01T14:57:57Z" finished-at="2018-11-01T14:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method status="PASS" signature="validUser()[pri:0, instance:com.automationpractices.testcases.ValidUser@4c70fda8]" name="validUser" duration-ms="2837" started-at="2018-11-01T14:57:57Z" finished-at="2018-11-01T14:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automationpractices.testcases.ValidUser@4c70fda8]" name="closeBrowser" is-config="true" duration-ms="463" started-at="2018-11-01T14:58:00Z" finished-at="2018-11-01T14:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.automationpractices.testcases.ValidUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
